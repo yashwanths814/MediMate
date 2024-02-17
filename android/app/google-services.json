@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "2182529446",
+    "project_id": "hack-e321d",
+    "storage_bucket": "hack-e321d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2182529446:android:d3892227586f15a8050f67",
+        "android_client_info": {
+          "package_name": "DinoCoders.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9N42IsmslD59H3sAfd8TchMuNdg673uU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2182529446:android:5d46b5eb39962858050f67",
+        "android_client_info": {
+          "package_name": "Robin.Do"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9N42IsmslD59H3sAfd8TchMuNdg673uU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2182529446:android:b63446e17d4eca7f050f67",
+        "android_client_info": {
+          "package_name": "Robin.do"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9N42IsmslD59H3sAfd8TchMuNdg673uU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
