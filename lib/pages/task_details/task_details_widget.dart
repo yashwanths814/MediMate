@@ -13,9 +13,7 @@ import 'package:stop_watch_timer/stop_watch_timer.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
 import 'package:provider/provider.dart';
@@ -86,15 +84,6 @@ class _TaskDetailsWidgetState extends State<TaskDetailsWidget>
 
   @override
   Widget build(BuildContext context) {
-    if (isiOS) {
-      SystemChrome.setSystemUIOverlayStyle(
-        SystemUiOverlayStyle(
-          statusBarBrightness: Theme.of(context).brightness,
-          systemStatusBarContrastEnforced: true,
-        ),
-      );
-    }
-
     context.watch<FFAppState>();
 
     return StreamBuilder<ToDoListRecord>(
@@ -108,9 +97,10 @@ class _TaskDetailsWidgetState extends State<TaskDetailsWidget>
               child: SizedBox(
                 width: 50.0,
                 height: 50.0,
-                child: SpinKitWanderingCubes(
-                  color: FlutterFlowTheme.of(context).primary,
-                  size: 50.0,
+                child: CircularProgressIndicator(
+                  valueColor: AlwaysStoppedAnimation<Color>(
+                    FlutterFlowTheme.of(context).primary,
+                  ),
                 ),
               ),
             ),
@@ -240,11 +230,14 @@ class _TaskDetailsWidgetState extends State<TaskDetailsWidget>
                                               child: SizedBox(
                                                 width: 50.0,
                                                 height: 50.0,
-                                                child: SpinKitWanderingCubes(
-                                                  color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .primary,
-                                                  size: 50.0,
+                                                child:
+                                                    CircularProgressIndicator(
+                                                  valueColor:
+                                                      AlwaysStoppedAnimation<
+                                                          Color>(
+                                                    FlutterFlowTheme.of(context)
+                                                        .primary,
+                                                  ),
                                                 ),
                                               ),
                                             );

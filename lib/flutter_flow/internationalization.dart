@@ -565,6 +565,11 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // Miscellaneous
   {
+    'xl6xdiqf': {
+      'en': 'Allow microphone to use voice assistant',
+      'hi': '',
+      'kn': '',
+    },
     '1267bfvs': {
       'en': '',
       'hi': '',

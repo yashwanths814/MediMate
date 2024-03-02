@@ -6,8 +6,6 @@ import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'edit_profile_model.dart';
@@ -53,15 +51,6 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
 
   @override
   Widget build(BuildContext context) {
-    if (isiOS) {
-      SystemChrome.setSystemUIOverlayStyle(
-        SystemUiOverlayStyle(
-          statusBarBrightness: Theme.of(context).brightness,
-          systemStatusBarContrastEnforced: true,
-        ),
-      );
-    }
-
     context.watch<FFAppState>();
 
     return StreamBuilder<List<UsersRecord>>(
@@ -77,9 +66,10 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
               child: SizedBox(
                 width: 50.0,
                 height: 50.0,
-                child: SpinKitWanderingCubes(
-                  color: FlutterFlowTheme.of(context).primary,
-                  size: 50.0,
+                child: CircularProgressIndicator(
+                  valueColor: AlwaysStoppedAnimation<Color>(
+                    FlutterFlowTheme.of(context).primary,
+                  ),
                 ),
               ),
             ),
