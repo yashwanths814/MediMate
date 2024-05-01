@@ -41,4 +41,10 @@ class FFAppState extends ChangeNotifier {
   set timerValue(int _value) {
     _timerValue = _value;
   }
+
+  String _apiKey = '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';
+  String get apiKey => _apiKey;
+  set apiKey(String _value) {
+    _apiKey = _value;
+  }
 }

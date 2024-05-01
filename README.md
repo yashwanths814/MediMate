@@ -3,4 +3,6 @@ MediMate is more than just a mere app; it's a reliable companion for those who s
 
 
 
+## Getting Started
 
+FlutterFlow projects are built to run on the Flutter _stable_ release.

@@ -7,9 +7,7 @@ import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'my_profile_model.dart';
@@ -82,15 +80,6 @@ class _MyProfileWidgetState extends State<MyProfileWidget>
 
   @override
   Widget build(BuildContext context) {
-    if (isiOS) {
-      SystemChrome.setSystemUIOverlayStyle(
-        SystemUiOverlayStyle(
-          statusBarBrightness: Theme.of(context).brightness,
-          systemStatusBarContrastEnforced: true,
-        ),
-      );
-    }
-
     context.watch<FFAppState>();
 
     return StreamBuilder<UsersRecord>(
@@ -104,9 +93,10 @@ class _MyProfileWidgetState extends State<MyProfileWidget>
               child: SizedBox(
                 width: 50.0,
                 height: 50.0,
-                child: SpinKitWanderingCubes(
-                  color: FlutterFlowTheme.of(context).primary,
-                  size: 50.0,
+                child: CircularProgressIndicator(
+                  valueColor: AlwaysStoppedAnimation<Color>(
+                    FlutterFlowTheme.of(context).primary,
+                  ),
                 ),
               ),
             ),
@@ -594,7 +584,7 @@ class _MyProfileWidgetState extends State<MyProfileWidget>
                         Align(
                           alignment: AlignmentDirectional(-1.0, 0.0),
                           child: FlutterFlowLanguageSelector(
-                            width: 420.0,
+                            width: double.infinity,
                             backgroundColor: FlutterFlowTheme.of(context)
                                 .secondaryBackground,
                             borderColor: Colors.transparent,

@@ -60,7 +60,8 @@
 	<true/>
 
 
-
+	<key>NSMicrophoneUsageDescription</key>
+    <string>Allow microphone to use voice assistant</string>
 
 
 	<key>UILaunchStoryboardName</key>

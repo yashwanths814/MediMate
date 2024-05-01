@@ -29,7 +29,7 @@ Future<int> fetchSpeechAndPlay(
 
   // Set up the POST request body.
   String body = json.encode(
-      {'model': 'tts-1', 'input': promptText, 'voice': 'onyx', 'speed': '1.1'});
+      {'model': 'tts-1', 'input': promptText, 'voice': 'nova', 'speed': '1'});
 
   // Make the POST request to fetch the speech audio.
   final response = await http.post(
