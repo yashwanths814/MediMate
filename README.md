@@ -5,7 +5,7 @@
 
 **MediMate** is more than just an app—it's a dependable companion for individuals managing complex medication schedules. Designed for ease of use and reliability, MediMate empowers users to stay on track with their health through smart reminders, secure access, and insightful tracking.
 
----
+
 
 ## 🚀 Features
 
@@ -21,7 +21,6 @@
 - 🔐 **Secure Password Reset**  
   Reset passwords via email with secure token-based authentication.
 
----
 
 ## 🧰 Tech Stack
 
@@ -29,7 +28,7 @@
 - **Backend**: Firebase (Authentication, Firestore, Cloud Functions)  
 - **Assistant**: NLP-powered query handling (custom logic or integration-ready)
 
----
+
 
 ## 🧪 Usage
 
@@ -48,26 +47,26 @@
 - **Reset Password**  
   Use the "Forgot Password" option to receive a secure reset link via email.
 
----
+
 
 ## 📱 Live Demo
 
 The app is live and available at:  
 🔗 [MediMate GitHub Repository](https://github.com/yashwanths814/MediMate)
 
----
+
 
 ## 🤝 Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
 
----
+
 
 ## 📄 License
 
 This project is licensed under the MIT License.
 
----
+
 
 ## 📦 Installation
 
@@ -76,7 +75,6 @@ This project is licensed under the MIT License.
 git clone https://github.com/yashwanths814/MediMate.git
 cd MediMate
 
-</div>
 
 
 
