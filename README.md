@@ -1,5 +1,6 @@
 <img align="center" width="300" height="300" src="images/MediMate.png">
-<div>
+
+
 # 💊 MediMate
 
 **MediMate** is more than just an app—it's a dependable companion for individuals managing complex medication schedules. Designed for ease of use and reliability, MediMate empowers users to stay on track with their health through smart reminders, secure access, and insightful tracking.
