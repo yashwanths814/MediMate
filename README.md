@@ -1,5 +1,80 @@
 <img align="left" width="300" height="300" src="images/MediMate.png">
-MediMate is more than just a mere app; it's a reliable companion for those who struggle to remember their medication schedules. Designed with user convenience in mind, it allows individuals to effortlessly add their medications and set reminders, ensuring timely intake. Beyond its basic functions, MediMate goes the extra mile by meticulously tracking medication data, providing invaluable insights for healthcare professionals to offer personalized recommendations. Adding a touch of innovation, the app introduces "MediMate Assistant," a virtual aide poised to answer user queries about medicines, fostering a sense of reassurance and clarity. Moreover, users can conveniently reset their passwords via a secure email link, enhancing account security without any hassle. With MediMate, managing medications becomes a seamless and empowered experience, prioritizing both health and peace of mind.
+
+# 💊 MediMate
+
+**MediMate** is more than just an app—it's a dependable companion for individuals managing complex medication schedules. Designed for ease of use and reliability, MediMate empowers users to stay on track with their health through smart reminders, secure access, and insightful tracking.
+
+---
+
+## 🚀 Features
+
+- 🕒 **Medication Reminders**  
+  Add medications and set timely alerts to ensure consistent intake.
+
+- 📊 **Data Tracking**  
+  Monitor medication history and generate insights for healthcare professionals.
+
+- 🧠 **MediMate Assistant**  
+  A virtual aide that answers user queries about medicines and usage.
+
+- 🔐 **Secure Password Reset**  
+  Reset passwords via email with secure token-based authentication.
+
+---
+
+## 🧰 Tech Stack
+
+- **Frontend**: Flutter  
+- **Backend**: Firebase (Authentication, Firestore, Cloud Functions)  
+- **Assistant**: NLP-powered query handling (custom logic or integration-ready)
+
+---
+
+## 🧪 Usage
+
+- **Sign Up / Log In**  
+  Create an account securely using Firebase Authentication.
+
+- **Add Medications**  
+  Input medicine name, dosage, and schedule.
+
+- **Set Reminders**  
+  Receive timely notifications via local alerts.
+
+- **Ask MediMate Assistant**  
+  Type your medicine-related questions and get instant responses.
+
+- **Reset Password**  
+  Use the "Forgot Password" option to receive a secure reset link via email.
+
+---
+
+## 📱 Live Demo
+
+The app is live and available at:  
+🔗 [MediMate GitHub Repository](https://github.com/yashwanths814/MediMate)
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yashwanths814/MediMate.git
+cd MediMate
+
 
 
 
