@@ -52,6 +52,7 @@
 ## 📱 Live Demo
 
 The app is live and available at:  
+🔗 [MediMate](https://medimate.flutterflow.app/)
 🔗 [MediMate GitHub Repository](https://github.com/yashwanths814/MediMate)
 
 
